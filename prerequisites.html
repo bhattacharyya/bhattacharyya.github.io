@@ -4,13 +4,13 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
 
-    <title>Exploring Data - Data Science</title>
+    <title>Tools for the trade</title>
 
-    <link rel="stylesheet" href="../theme/css/normalize.css" />
-    <link rel="stylesheet" href="../theme/css/foundation.min.css" />
-    <link rel="stylesheet" href="../theme/css/style.css" />
-    <link rel="stylesheet" href="../theme/css/pygments.css" />	
-    <script src="../theme/js/custom.modernizr.js"></script>
+    <link rel="stylesheet" href="./theme/css/normalize.css" />
+    <link rel="stylesheet" href="./theme/css/foundation.min.css" />
+    <link rel="stylesheet" href="./theme/css/style.css" />
+    <link rel="stylesheet" href="./theme/css/pygments.css" />	
+    <script src="./theme/js/custom.modernizr.js"></script>
 
     <!-- So Firefox can bookmark->"abo this site" -->
 
@@ -23,7 +23,7 @@
 <div class="top-bar">
 <div class="row">
     <div class="large-9 large-centered columns">
-	    <h1><a href="..">Exploring Data</a></h1>
+	    <h1><a href=".">Exploring Data</a></h1>
     </div>
 </div>
 </div>
@@ -45,16 +45,17 @@
 
     <!-- Main Blog Content -->
     <div class="large-9 columns">
-        
-        
+<article>
+    <header>
+        <h3 class="article-title"><a href="./prerequisites.html" rel="bookmark"
+        title="Permalink to Tools for the trade">Tools for the trade</a></h3>
+    </header>
 
-            <article>
-                <a href="../prerequisites.html"><h3 class="article-title">Tools for the trade</h3></a>
 <h6 class="subheader" title="2015-11-03T07:20:00">Tue 03 November 2015
 </h6>
 
 
-<p>OK, here is the list of tools that you might find immensely useful in getting started with data exploration. Some of these things are very basic and you probably have years of experience with those already. Some others are quite new and gaining in popularity fast. Remember though that these are mostly suggestions and if you are more comfortable with a similar package in the same category, definitely stick to that. Also, this list is far from being exhaustive. I will add more things here as I expand my toolset or find a better way of doing the same things.</p>
+    <p>OK, here is the list of tools that you might find immensely useful in getting started with data exploration. Some of these things are very basic and you probably have years of experience with those already. Some others are quite new and gaining in popularity fast. Remember though that these are mostly suggestions and if you are more comfortable with a similar package in the same category, definitely stick to that. Also, this list is far from being exhaustive. I will add more things here as I expand my toolset or find a better way of doing the same things.</p>
 <p><a href="https://www.python.org/">Python</a></p>
 <p>If you are just starting out with python, starting with python 3 (3.4 or higher) might make more sense but the choice is not very obvious. Python's biggest appeal is the tremendous community support and most of the support available out there is for version 2.7. Python 3 is the future though and there is no getting around that fact. So, one strategy could be to get used to the "pythonic way" using version 2.7 and eventually move to version 3+ when the basic language constructs are firmly set in your brain. Ultimately, choosing either version for now is gonna be all right.</p>
 <p><a href="http://ipython.org/">IPython</a></p>
@@ -68,29 +69,32 @@
 <p><a href="https://github.com/caesar0301/awesome-public-datasets">Lots of public data</a></p>
 <p>There are many sites that provide free access to tons of data. Apart from the link above there is <a href="https://www.kaggle.com/competitions">Kaggle</a> or <a href="https://www.reddit.com/r/dataisbeautiful">reddit data sites</a>. You might even want to start following data science groups on social platforms like twitter. Not only will you find wonderful insights from diverse datasets but also understand how the experts approach the whole process of data analysis.</p>
 <p>I recently got hold of the entire dataset of public reddit comments (~1TB). Kaggle even hosted a <a href="https://www.kaggle.com/c/reddit-comments-may-2015/scripts">competition</a> where they provided the data for month of May 2015 in database format. </p>
-<p>I will post some quick analysis soon. It probably won't be any pathbreaking insight but it should get me started with data exploration started. Looking forward to working with actual data finally !!</p><p class="subheader">Category: <a href="../category/data-science.html">Data Science</a>
+<p>I will post some quick analysis soon. It probably won't be any pathbreaking insight but it should get me started with data exploration started. Looking forward to working with actual data finally !!</p>
+<p class="subheader">Category: <a href="./category/learning.html">Learning</a>
 
     Tagged: 
-    <a href="../tag/python.html">python </a>
-    <a href="../tag/data-science.html">data science </a>
+    <a href="./tag/python.html">python </a>
+    <a href="./tag/data-science.html">data science </a>
 </p>
 
 
 
-<p><a href="../prerequisites.html#disqus_thread">comments</a></p>            </article>
 
-<div class="pagination-centered">
-<h6 class="subheader">Page 1 of 1</h6>
+	<h4>Comments</h4>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'esesbee'
+        var disqus_identifier = "prerequisites.html";
+        var disqus_url = "./prerequisites.html";
 
-<p>
-
-</p>
-</div>
-
-
-
-            <!-- /#posts-list -->
-
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</article>
     </div>
     <!-- End Main Content -->
 
@@ -98,8 +102,8 @@
     <aside class="large-3 columns">
         <h5 class="sidebar-title">Site</h5>
         <ul class="side-nav">
-            <li><a href="../archives.html">Archives</a>
-            <li><a href="../tags.html">Tags</a>
+            <li><a href="./archives.html">Archives</a>
+            <li><a href="./tags.html">Tags</a>
 
 
         </ul>
@@ -107,8 +111,7 @@
 		
         <h5 class="sidebar-title">Categories</h5>
         <ul class="side-nav">
-            <li><a href="../category/data-science.html">Data Science</a></li>
-            <li><a href="../category/thoughts.html">Thoughts</a></li>
+            <li><a href="./category/learning.html">Learning</a></li>
    
         </ul>
 

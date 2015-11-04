@@ -4,7 +4,7 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
 
-    <title>Exploring Data</title>
+    <title>IPython</title>
 
     <link rel="stylesheet" href="./theme/css/normalize.css" />
     <link rel="stylesheet" href="./theme/css/foundation.min.css" />
@@ -13,6 +13,7 @@
     <script src="./theme/js/custom.modernizr.js"></script>
 
     <!-- So Firefox can bookmark->"abo this site" -->
+
 
 </head>
 
@@ -45,9 +46,41 @@
 
     <!-- Main Blog Content -->
     <div class="large-9 columns">
-<ul class="circle">
-	<li><a href="category/learning.html">Learning</a></li>
-</ul>
+<article>
+    <header>
+        <h3 class="article-title"><a href="./ipython-notebook.html" rel="bookmark"
+        title="Permalink to IPython">IPython</a></h3>
+    </header>
+
+<h6 class="subheader" title="2015-11-05T10:20:00">Thu 05 November 2015
+</h6>
+
+
+<p class="subheader">Category: <a href="./category/learning.html">Learning</a>
+
+    Tagged: 
+    <a href="./tag/python.html">python </a>
+    <a href="./tag/data-science.html">data science </a>
+</p>
+
+
+
+
+	<h4>Comments</h4>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'esesbee'
+        var disqus_identifier = "ipython-notebook.html";
+        var disqus_url = "./ipython-notebook.html";
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</article>
     </div>
     <!-- End Main Content -->
 
